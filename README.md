@@ -51,6 +51,7 @@ sudo mysql -uroot -p
 Then run the following commands inside MySQL:
 
 ```sql
+CREATE DATABASE eams;
 CREATE USER 'eams'@'localhost' IDENTIFIED BY 'eams123';
 GRANT ALL PRIVILEGES ON *.* TO 'eams'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
